@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background: #f4f4f4;
+
+  }
+  .wrap{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  p{
+    margin-top:2rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .container{
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  .item{
+    flex: 1 1 150px;
+    background-color: #65c294;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+  }
